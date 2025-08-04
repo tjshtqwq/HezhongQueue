@@ -1,0 +1,10 @@
+name: HezhongQueue
+version: '${project.version}'
+main: me.tjsh.HezhongQueue
+commands:
+  hq:
+    description: Command
+  hub:
+    description: Command
+  lobby:
+    description: Command

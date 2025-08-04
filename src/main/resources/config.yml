@@ -1,0 +1,24 @@
+buy-priority-queue-message: "&c普通队列优先级低 &a购买优先队列请寻找服主"
+default-lobby-server-group: "lobby"
+blacklist-servers: "login" # 无法使用命令
+groups:
+  bedwars: "bw1,bw2,bw3"
+  bedwars-motd-check: true
+  bedwars-motd-check-match-string: ""
+  bedwars-motd-check-use-regex: false # 匹配motd使用正则
+  bedwars-matching-strategy: "max" # max 人最多的 min 人最少的 first 第一个可进入的
+  bedwars-lobby-server-group: "lobby"
+
+  skywars: "sw1,sw2,sw3"
+  skywars-motd-check: true
+  skywars-motd-check-match-string: ""
+  skywars-motd-check-use-regex: false
+  skywars-matching-strategy: "max"
+  skywars-lobby-server-group: "lobby"
+
+  lobby: "lobby"
+  lobby-motd-check: false
+  lobby-motd-check-match-string: ""
+  lobby-motd-check-use-regex: false
+  lobby-matching-strategy: "min"
+  lobby-lobby-server-group: "" # if empty, use default-lobby-server-group

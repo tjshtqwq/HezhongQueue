@@ -1,0 +1,11 @@
+name: HezhongQueue
+version: 0.1
+main: me.tjsh.spigot.HezhongQueue
+authors: [tjshawa]
+description: Queue plugin.
+
+commands:
+  hqs:
+    description: Command.
+    usage: /hqs
+
