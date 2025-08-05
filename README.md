@@ -15,3 +15,5 @@
 同时可以安装到Bukkit服务器上，命令变为/hqs，用法相同，无权限校验，可以和BungeeCord的插件通讯，适用于NPC（NPC可以绑定例如hqs move lobby等命令执行）
 
 官方QQ群聊：745840525
+
+JAR文件（插件）在target文件夹里面
